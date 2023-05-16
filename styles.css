@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* background-color: #44240d; */
+    background: url(yyy.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+   
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    font: san-serif;
+}
+div a{
+    display: inline;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 14px 20px;
+   text-align: center;
+   float: right;
+}
+div a:hover{
+    background-color: #636769;
+
+}
+
+.nav{
+    padding: 40px;
+    /* background-color: #d5e4e4; */
+    
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    
+   
+}
+.col{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-left: 50px;
+}
+h2{
+    font: san-serif;
+    font-size: 30px;
+    color: white;
+    padding-top: 15px;
+}
+
+div li{
+    color: white;
+    font-size: 20px;
+}
+
+p{
+    color: white;
+    font: sans-serif;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.contact{
+    
+    background-color: #242525;
+    width: auto;
+}
+#about{
+    margin-top: 60px;
+}
+h3{
+    font-weight: bolder;
+    font-size: 18px;
+    color: white;
+}
+span{
+    font-weight: bold;
+    font: sans-serif;
+    color: white;
+}
+.center {
+    display: block;
+    margin-left: 800px;
+    margin-right: auto;
+    width: 50%;
+  }
